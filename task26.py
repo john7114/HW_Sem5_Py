@@ -19,6 +19,6 @@ def exponentiation(A, B, count=0, res=1):
 A = int(input("Введите число А: "))
 B = int(input("Введите число B: "))
 if B < 0:
-    B = -B
-
-exponentiation(A, B)
+    print("Степень(число В) должна быть положительной: ")
+else:
+    exponentiation(A, B)
